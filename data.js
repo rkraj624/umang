@@ -5,6 +5,9 @@ const data = {
    Currently, Avelo Roy runs the largest startup incubator in East India (Kolkata Ventures) with 550+ revenue-generating startups. He has been listed as 40 Must Follow People In Indian Startup Ecosystem by Bizztor.
    Avelo’s spiritual foundation plays a key role in his life choices and he embeds the timeless teachings of Bhagavad Gita in his business decision making and mentorship that he has provided to more than 1800 young men and women in US & India.`,
 
+   banner:"src/assets/umang.jpeg",
+   logo:"src/assets/logo.jpeg",
+
    
   };
   
