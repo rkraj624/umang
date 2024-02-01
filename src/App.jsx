@@ -1,21 +1,13 @@
 import './App.css'
-
+import data from '/data'; 
 function App() {
-
   return (
     <div>
-      {/* Other components or text can go here */}
-      <iframe
-        title="Student Information Form"
-        src="https://forms.gle/TERK8Mk5uMuajEgU9"
-        width="640"
-        height="800"
-        frameBorder="0"
-        marginHeight="0"
-        marginWidth="0"
-      >
-        Loading...
-      </iframe>
+      <img src="/src/assets/WhatsApp Image 2024-01-31 at 19.11.45-min.jpeg" alt="" />
+      <p>{data.speakerIntro}</p>
+      <a href={data.formLink} rel="noopener noreferrer">
+        Register here
+      </a>
     </div>
   )
 }
