@@ -1,14 +1,17 @@
 import './App.css'
-import data from '/data'; 
+import Home from './components/Home';
+import Navbar from './components/Navbar';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 function App() {
   return (
-    <div>
-      <img src={data.banner} alt="umang" />
-      <p>{data.speakerIntro}</p>
-      <a href={data.formLink} rel="noopener noreferrer">
-        Register here
-      </a>
-    </div>
+    <BrowserRouter>
+      <Navbar/>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+      </Routes>
+    </BrowserRouter>
+    
   )
 }
 
